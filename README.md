@@ -1,10 +1,5 @@
 # Haensel_AMS_Assignment
 
-```pyhon 
-python src/pipeline.py --start_date 2024-01-01 --end_date 2024-01-31
-```
-
-
 ## Overview
 
 - This report outlines the design of the attribution pipeline, the assumptions made during its implementation, and potential improvements.
@@ -13,11 +8,13 @@ python src/pipeline.py --start_date 2024-01-01 --end_date 2024-01-31
 
 ---
 
-## Pipeline Design
+```pyhon 
+python src/pipeline.py --start_date 2024-01-01 --end_date 2024-01-31
+```
 
-### **Structure**
+---
 
-The pipeline is divided into distinct stages:
+## Pipeline Design Stages:
 
 1. **Database Setup**
 
